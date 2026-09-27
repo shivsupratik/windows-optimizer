@@ -1,0 +1,12 @@
+# Language detection rules
+# Do not edit manually
+*.bat text eol=crlf   
+
+*.htm linguist-vendored
+**/*.js linguist-detectable
+docs/** linguist-vendored
+*.sh text eol=lf
+*.gif binary
+
+build/* linguist-vendored
+src/**/*.js linguist-detectable
